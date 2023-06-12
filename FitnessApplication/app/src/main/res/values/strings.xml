@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Fitness Application</string>
+    <string name="privacy_policy">GOALS PRIVACY POLICY</string>
+    <string name="policy_intro">At Goals, we respect the concerns of our customers, online visitors, mobile application users, and business partners (“you,” or “your”) about your personal information and value our relationship with you.
+        This Privacy Policy applies to information collected by Goals, the Goals Family of Brands, and any affiliated or subsidiary companies (“Goals,” “we” or “us”), offline or online, including the websites and mobile applications that post a link to this Privacy Policy (collectively, our “Sites”).
+        This Privacy Policy explains the types of personal information we collect, how we use and process personal information, the legal basis for processing, and with whom we share personal information. We also tell you how you can reach us to update your contact information, remove your name from our mailing lists, or get answers to questions you may have about our privacy practices. Please read this Privacy Policy carefully. By continuing to interact with our Sites or providing personal information to us after having an opportunity to review this Privacy Policy, you are agreeing to the practices described in this Privacy Policy. This Privacy Policy is incorporated by reference into the Terms of Use posted on each of our Sites.
+    </string>
+    <string name="updates_heading">UPDATES TO OUR PRIVACY POLICY</string>
+    <string name="updates_content">This Privacy Policy may be updated periodically to reflect changes in our operations or applicable laws. We may modify this Privacy Policy at any time in our sole discretion. If we make material changes to this Privacy Policy that increase our rights to use personal information, we have previously collected about you, we will obtain your consent either through an email to your registered email address or by prominent posting on our sites. If we intend to further process your personal data for a purpose other than those described in our Privacy Policy at the time of collection, Goals will first provide information about that other purpose and additional information necessary to ensure fair and transparent processing.</string>
+    <string name="what_it_covers">WHAT THIS PRIVACY POLICY COVERS</string>
+    <string name="what_it_covers_content">We use the terms “personal information” or “personal data” interchangeably in this Privacy Policy to refer to information that identifies, relates to, describes, or is reasonably capable of being associated, directly or indirectly, with an individual. Personal information does not include information that has been modified in a substantial way so that it no longer can reasonably identify or be linked to an individual.
+        We obtain personal information from a range of sources including (but not limited to) the following:
+        1.	Information you submit online (including, but not limited to, filling out forms or requests on the Sites, sending us a message, or responding to our marketing messaging and promotions);
+        2.	Information collected when you visit our Sites as described in the section titled, “Information We Collect Using Cookies and Other Technologies” and in our Cookie Policy;
+        3.	Information provided by the fitness center you use;
+        4.	Information collected during a workout session if you are an exerciser who uses our connected fitness products;
+        5.	Social media accounts you use to interact with Goals;
+        6.	Market research services and public and commercial resources.
+        7.	This Privacy Policy does not apply to any personal information collected by the third-party source (app store) from which you download our mobile application and we are not responsible for the privacy practices of your app store. As explained below, this Privacy Policy does not apply to the privacy practices of third-party services that provide functionality for our Sites (such as plug-ins), information you post on social media, information you post or send using a messaging or other application (such as WhatsApp Messenger), or information collected by third-party websites to which you navigate from links on our Sites.
+    </string>
+    <string name="personal_info">PERSONAL INFORMATION WE COLLECT</string>
+    <string name="personal_info_content">Fitness and Exercise Data. If you track your exercise sessions either by registering to use our mobile applications (such as the Halo® mobile application) or by using a platform provided by your fitness center powered by Halo®, we may ask for your name, e-mail address, and mobile phone number, date of birth, and weight. You also may elect to input data about your physical condition, fitness facility, workout results and progress, and language preference. As you exercise, the Halo® will collect and analyze performance metrics such as VO2Max, flexibility and strength, which you will be able to download in report form. Your performance metrics will be shared with your fitness center.
+        Feedback, Surveys, or Contests. We may offer you the opportunity to participate in online surveys, solicitations, or contests. Information we request includes contact information (such as e-mail address) and demographic information (such as number of family members and income ranges). Participation in surveys, solicitations, or contests is completely voluntary. Therefore, you have a choice as to whether to disclose any information. We, our business partners, or the authorized dealer in your area, will use the information provided to notify contest winners and award prizes, to monitor or improve the use of one or more websites or advertising, and to provide aggregated information for marketing analyses.
+        Owner’s Programs or Rewards Programs. From time to time, some of our Sites may offer owner’s programs, reward programs, or coupons and request contact information and information on your product purchases, so that we can enroll you in these programs and communicate with you.
+    </string>
+    <string name="purposes">PURPOSES AND LEGAL BASIS FOR PROCESSING PERSONAL INFORMATION</string>
+    <string name="purposes_content">
+        The personal information we collect is processed for the following purposes:
+        1.	To offer our products and services, respond to your requests and provide information and communicate with you about our products and services;
+        2.	To register and maintain an online or offline account;
+        3.	To process orders and other transactions, including warranty and product registration, payments, claims, requests, and provide customer service;.
+        4.	To provide information about financial options for the purchase of our products;
+        5.	To operate, analyze and enhance the performance and functioning of our Site, products and services;
+        6.	To prevent fraud; to enforce the Sites’ Terms of Use; to comply with applicable laws and corporate reporting obligations; and to enforce Goals’s agreements;
+        7.	To analyze how the Sites are used, to prepare aggregated trend reports, and to perform other market research;
+        8.	To provide you with online advertisements and marketing emails based on your interests and permissions;
+        9.	To facilitate your interaction through our Sites with other consumers, including through social networking;
+        10.	To send notices, newsletters, marketing communications, promotions, solicitations, brochures, or other marketing materials regarding our Sites, our products, and the services of our businesses, affiliates, business partners, or authorized dealers;
+        11.	To monitor and analyze usage and trends, evaluate and compare interest in our products and services and develop new products and services;
+        12.	To receive and process applications for employment;
+        13.	To provide our interactive console and mobile app workout recommendations to exercisers; and
+        14.	To provide our equipment monitoring and management services to fitness centers and other commercial customers.
+        Goals processes your personal information where we have a legal basis to do so. The legal basis that we will rely on will be one of the following:
+        1.	You have consented to our processing your personal information;
+        2.	The processing is necessary to perform a contract with you or to fulfill a request you have made;
+        3.	The processing is necessary to comply with a legal obligation that applies to Goals under US, EU or Member State or other applicable law; or
+        4.	The processing is necessary for purposes that are in Goals’ legitimate interests as a multinational equipment manufacturer and retailer in order to, for example, protect our business and better understand our customers.
+        We may use your personal information to develop a personal profile about you. We may use the personal information in your profile to respond to requests for financial options for purchasing products and services from us and to contact to you for marketing purposes.
+    </string>
+    <string name="info_protect">HOW WE PROTECT PERSONAL INFORMATION</string>
+    <string name="info_protect_content">We maintain reasonable security procedures and practices appropriate to the nature of the personal information we collect to protect against loss, misuse or unauthorized access, disclosure, alteration or destruction of the information you provide when visiting or using the Sites. Despite our efforts to safeguard your personal information, we cannot guarantee it will be completely secure from unauthorized access, disclosure, use, or alteration. In particular, there is always a risk inherent in the electronic transmission and storage of information. To protect the security of your user name and password, we recommend that you use a complex password that is different from passwords you use for other activities, keep all your passwords in a safe place, and do not share your passwords with others. Always remember to logout after your session ends so that that other people cannot access your account information.
+    </string>
+    <string name="rights">YOUR RIGHTS – ACCESS AND CORRECTION</string>
+    <string name="rights_content">You have the right to request access to the personal information we have collected about you for the purposes of reviewing, modifying, or requesting erasure of your personal information. You also have the right to request a copy of the personal information we have collected about you. In certain situations, you may also request that we restrict or cease processing your personal information at goals.fitness@gmail.com.
+        To help protect your privacy and security, we will take reasonable steps to verify your identity, such as requiring a password and user ID, before granting access to your information.
+        You will be notified of any actions taken on your personal information in response to a request submitted for modification, deletion, or restrictions on the processing of your personal information.
+        When data processing is based on your consent, you have the right to withdraw consent at any time, without affecting the lawfulness of processing based on consent before such withdrawal. You also have a right to data portability when the data processing is based on a contract between you and Goals and the data was processed by automated means. You may exercise these rights by submitting a written request to goals.fitness@gmail.com. Goals will respond to your request within one month.
+        You have the right to lodge a complaint with the appropriate privacy or data protection regulator in your jurisdiction.
+    </string>
+    <string name="info_reten">RETENTION OF PERSONAL INFORMATION</string>
+    <string name="info_reten_content">Goals retains all personal information for the duration of the relevant business relationship in accordance with its information management policies and schedules or, where required, in accordance with applicable law. When deleting personal information based on a request by the data subject, Goals will make reasonable attempts to ensure that all instances of the information are deleted in their entirety. For requests for access, corrections, or deletion, please refer to the “Your Rights - Access and Correction” section of this Privacy Policy.
+        Goals maintains documentation, including a data processing activity register, to demonstrate compliance with its obligations and to allow audits, including inspections, to be carried out by Goals or another auditor, and to participate in such audits.
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:scrollbars="none"
+    android:background="@color/white"
+    android:scaleType="fitXY"
+    tools:context=".ExecuteExercise"
+    android:paddingTop="@dimen/_10sdp">
+    <ImageView
+        android:id="@+id/quitBt"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:src="@drawable/ic_baseline_keyboard_backspace_24"/>
+
+    <RelativeLayout
+        android:scaleType="fitXY"
+        android:layout_marginTop="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/gif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@color/white" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:scaleType="fitXY"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/nameExercise"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="@dimen/_50sdp"
+            android:text="BICYCLE EXERCISE"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/counter"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="570dp"
+            android:layout_marginBottom="@dimen/_50sdp"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <!--        <Button-->
+        <!--            android:id="@+id/btn1"-->
+        <!--            android:layout_width="100dp"-->
+        <!--            android:layout_height="50dp"-->
+        <!--            android:layout_marginLeft="250dp"-->
+        <!--            android:layout_marginTop="620dp"-->
+        <!--            android:backgroundTint="@color/black"-->
+        <!--            android:onClick="onClick"-->
+        <!--            android:text="NEXT"-->
+        <!--            android:textColor="@color/white"-->
+        <!--            tools:ignore="MissingConstraints,OnClick" />-->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/borders">
+
+            <ImageView
+                android:id="@+id/previousExercise"
+                android:layout_width="40dp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/borders"
+                android:src="@drawable/ic_baseline_keyboard_arrow_left_24" />
+
+            <ImageView
+                android:id="@+id/playpause"
+                android:layout_width="40dp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/borders"
+                android:src="@drawable/ic_baseline_play_arrow_24" />
+
+            <ImageView
+                android:id="@+id/nextExercise"
+                android:layout_width="40dp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/borders"
+                android:src="@drawable/ic_baseline_keyboard_arrow_right_24" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

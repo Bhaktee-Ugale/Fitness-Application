@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/BHAKTEE/AndroidStudioProjects/FitnessApplication/app/src/main/res/drawable/border.xml" value="0.1" />
+        <entry key="..\:/Users/BHAKTEE/AndroidStudioProjects/FitnessApplication/app/src/main/res/drawable/borders.xml" value="0.1" />
+        <entry key="..\:/Users/BHAKTEE/AndroidStudioProjects/FitnessApplication/app/src/main/res/drawable/customratingstars.xml" value="0.1" />
+        <entry key="..\:/Users/BHAKTEE/AndroidStudioProjects/FitnessApplication/app/src/main/res/drawable/ic_baseline_av_timer_24.xml" value="0.1" />
+        <entry key="..\:/Users/BHAKTEE/AndroidStudioProjects/FitnessApplication/app/src/main/res/drawable/ic_baseline_calendar_month_24.xml" value="0.179" />
+        <entry key="..\:/Users/BHAKTEE/AndroidStudioProjects/FitnessApplication/app/src/main/res/drawable/ic_baseline_electric_bolt_24.xml" value="0.1" />
+        <entry key="..\:/Users/BHAKTEE/AndroidStudioProjects/FitnessApplication/app/src/main/res/drawable/ic_baseline_timer_24.xml" value="0.1" />
+        <entry key="..\:/Users/BHAKTEE/AndroidStudioProjects/FitnessApplication/app/src/main/res/drawable/ic_baseline_whatshot_24.xml" value="0.1" />
+        <entry key="..\:/Users/BHAKTEE/AndroidStudioProjects/FitnessApplication/app/src/main/res/drawable/ic_women_exercise.xml" value="0.1" />
+        <entry key="..\:/Users/BHAKTEE/AndroidStudioProjects/FitnessApplication/app/src/main/res/drawable/logo.xml" value="0.1" />
+        <entry key="..\:/Users/BHAKTEE/AndroidStudioProjects/FitnessApplication/app/src/main/res/drawable/logo1.xml" value="0.1" />
+        <entry key="..\:/Users/BHAKTEE/AndroidStudioProjects/FitnessApplication/app/src/main/res/drawable/roundbutton.xml" value="0.1" />
+        <entry key="..\:/Users/BHAKTEE/AndroidStudioProjects/FitnessApplication/app/src/main/res/layout/activity_countdown.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/BHAKTEE/AndroidStudioProjects/FitnessApplication/app/src/main/res/layout/activity_edit_health_details.xml" value="0.19791666666666666" />
+        <entry key="..\:/Users/BHAKTEE/AndroidStudioProjects/FitnessApplication/app/src/main/res/layout/activity_edit_personal_details.xml" value="0.15833333333333333" />
+        <entry key="..\:/Users/BHAKTEE/AndroidStudioProjects/FitnessApplication/app/src/main/res/layout/activity_execute_exercise.xml" value="0.264" />
+        <entry key="..\:/Users/BHAKTEE/AndroidStudioProjects/FitnessApplication/app/src/main/res/layout/activity_exercise_home.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/BHAKTEE/AndroidStudioProjects/FitnessApplication/app/src/main/res/layout/activity_home.xml" value="0.264" />
+        <entry key="..\:/Users/BHAKTEE/AndroidStudioProjects/FitnessApplication/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/BHAKTEE/AndroidStudioProjects/FitnessApplication/app/src/main/res/layout/activity_me.xml" value="0.21822916666666667" />
+        <entry key="..\:/Users/BHAKTEE/AndroidStudioProjects/FitnessApplication/app/src/main/res/layout/activity_notification_message.xml" value="0.21510416666666668" />
+        <entry key="..\:/Users/BHAKTEE/AndroidStudioProjects/FitnessApplication/app/src/main/res/layout/activity_privacy_policy.xml" value="0.21822916666666667" />
+        <entry key="..\:/Users/BHAKTEE/AndroidStudioProjects/FitnessApplication/app/src/main/res/layout/activity_profile.xml" value="0.2" />
+        <entry key="..\:/Users/BHAKTEE/AndroidStudioProjects/FitnessApplication/app/src/main/res/layout/activity_rate_us.xml" value="0.1" />
+        <entry key="..\:/Users/BHAKTEE/AndroidStudioProjects/FitnessApplication/app/src/main/res/layout/activity_remainder.xml" value="0.21510416666666668" />
+        <entry key="..\:/Users/BHAKTEE/AndroidStudioProjects/FitnessApplication/app/src/main/res/layout/activity_remainder_page.xml" value="0.1824074074074074" />
+        <entry key="..\:/Users/BHAKTEE/AndroidStudioProjects/FitnessApplication/app/src/main/res/layout/activity_report.xml" value="0.4" />
+        <entry key="..\:/Users/BHAKTEE/AndroidStudioProjects/FitnessApplication/app/src/main/res/layout/activity_rest.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/BHAKTEE/AndroidStudioProjects/FitnessApplication/app/src/main/res/layout/activity_single_workout.xml" value="0.536" />
+        <entry key="..\:/Users/BHAKTEE/AndroidStudioProjects/FitnessApplication/app/src/main/res/layout/activity_workout_history.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/BHAKTEE/AndroidStudioProjects/FitnessApplication/app/src/main/res/layout/activity_workout_home.xml" value="0.20038077106139934" />
+        <entry key="..\:/Users/BHAKTEE/AndroidStudioProjects/FitnessApplication/app/src/main/res/layout/borders.xml" value="0.15833333333333333" />
+        <entry key="..\:/Users/BHAKTEE/AndroidStudioProjects/FitnessApplication/app/src/main/res/layout/dialog.xml" value="0.15833333333333333" />
+        <entry key="..\:/Users/BHAKTEE/AndroidStudioProjects/FitnessApplication/app/src/main/res/layout/exercise_dialog.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/BHAKTEE/AndroidStudioProjects/FitnessApplication/app/src/main/res/layout/fragment_countdown.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/BHAKTEE/AndroidStudioProjects/FitnessApplication/app/src/main/res/layout/fragment_exercise_execution.xml" value="0.264" />
+        <entry key="..\:/Users/BHAKTEE/AndroidStudioProjects/FitnessApplication/app/src/main/res/layout/fragment_rest.xml" value="0.264" />
+        <entry key="..\:/Users/BHAKTEE/AndroidStudioProjects/FitnessApplication/app/src/main/res/layout/notification_layout.xml" value="0.176" />
+        <entry key="..\:/Users/BHAKTEE/AndroidStudioProjects/FitnessApplication/app/src/main/res/layout/report_car.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/BHAKTEE/AndroidStudioProjects/FitnessApplication/app/src/main/res/layout/row_exercise_history.xml" value="0.4" />
+        <entry key="..\:/Users/BHAKTEE/AndroidStudioProjects/FitnessApplication/app/src/main/res/layout/row_remainder_cardview.xml" value="0.15833333333333333" />
+        <entry key="..\:/Users/BHAKTEE/AndroidStudioProjects/FitnessApplication/app/src/main/res/layout/single_exercise.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

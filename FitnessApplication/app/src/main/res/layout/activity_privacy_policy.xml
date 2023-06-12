@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/layout"
+    android:layout_height="match_parent">
+
+    <ScrollView android:layout_marginTop="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingEnd="15dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/privacy_policy"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:paddingBottom="20dp"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/policy_intro"
+                android:textSize="18dp"
+                android:paddingBottom="20dp"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/updates_heading"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:paddingBottom="20dp"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/updates_content"
+                android:textSize="18dp"
+                android:paddingBottom="20dp"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/what_it_covers"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:paddingBottom="20dp"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/what_it_covers_content"
+                android:textSize="18dp"
+                android:paddingBottom="20dp"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/personal_info"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:paddingBottom="20dp"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/personal_info_content"
+                android:textSize="18dp"
+                android:paddingBottom="20dp"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/purposes"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:paddingBottom="20dp"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/purposes_content"
+                android:textSize="18dp"
+                android:paddingBottom="20dp"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/info_protect"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:paddingBottom="20dp"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/info_protect_content"
+                android:textSize="18dp"
+                android:paddingBottom="20dp"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rights"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:paddingBottom="20dp"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rights_content"
+                android:textSize="18dp"
+                android:paddingBottom="20dp"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/info_reten"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:paddingBottom="20dp"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/info_reten_content"
+                android:textSize="18dp"
+                android:paddingBottom="20dp"
+                >
+            </TextView>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

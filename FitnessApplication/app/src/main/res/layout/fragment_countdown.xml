@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/countdownFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CountdownFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ready to Go!"
+            android:textSize="@dimen/_30sdp"
+            android:textStyle="bold"
+            android:textColor="@color/grey"
+            android:gravity="center"
+            android:textAllCaps="true"/>
+
+        <TextView
+            android:id="@+id/countdownTimer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="10"
+            android:textSize="@dimen/_40sdp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/exerciseNameCountdown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="jumping jacks"
+            android:textSize="@dimen/_20sdp"
+            android:gravity="center"
+            android:padding="@dimen/_10sdp"
+            android:maxLines="2"
+            android:textAllCaps="true"/>
+
+        <Button
+            android:id="@+id/skipCountdownBt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="skip"
+            android:background="@drawable/roundbutton"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_30sdp"/>
+
+    </LinearLayout>
+
+
+</FrameLayout>

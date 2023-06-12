@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MeActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:background="@drawable/borders"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/_20sdp"
+        android:text="ME"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold" />
+
+
+    <!--<Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_90sdp"
+        android:layout_marginTop="@dimen/_45sdp"
+        android:text="Upgrade To Premium"
+        android:textAllCaps="false" />-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/borders"
+        android:padding="@dimen/_5sdp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/m_homeBt"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="@dimen/_40sdp"
+            app:cardElevation="0dp"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/m_homeIv"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_baseline_home_24" />
+
+            <TextView
+                android:id="@+id/m_homeTv"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:gravity="center"
+                android:text="Home" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/m_reportBt"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_centerInParent="true"
+            app:cardElevation="0dp"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/m_reportIv"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_baseline_equalizer_24" />
+
+            <TextView
+                android:id="@+id/m_reportTv"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:gravity="center"
+                android:text="History" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/m_meBt"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="@dimen/_40sdp"
+            app:cardElevation="0dp"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/m_meIv"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_baseline_person_24" />
+
+            <TextView
+                android:id="@+id/m_meTv"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:gravity="center"
+                android:text="Me" />
+
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:layout_marginBottom="@dimen/_50sdp"
+        android:padding="@dimen/_10sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/_5sdp">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Upgrade To Premium"
+                android:textAllCaps="false" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/profileBt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    app:contentPadding="@dimen/_5sdp"
+                    app:cardElevation="5dp">
+                    <ImageView
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_25sdp"
+                        android:src="@drawable/ic_baseline_edit_24"
+                        android:layout_marginRight="@dimen/_10sdp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_25sdp"
+                        android:text="My Profile"
+                        android:layout_marginLeft="@dimen/_40sdp"
+                        android:gravity="center_vertical"
+                        android:textStyle="bold"
+                        android:paddingStart="@dimen/_5sdp"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/remainderBt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    app:contentPadding="@dimen/_5sdp"
+                    app:cardElevation="5dp">
+                    <ImageView
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_25sdp"
+                        android:src="@drawable/ic_baseline_notifications_24"
+                        android:layout_marginRight="@dimen/_10sdp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_25sdp"
+                        android:text="Remainder"
+                        android:layout_marginLeft="@dimen/_40sdp"
+                        android:gravity="center_vertical"
+                        android:textStyle="bold"
+                        android:paddingStart="@dimen/_5sdp" />
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WORKOUT"
+                    android:textStyle="bold"
+                    android:textColor="@color/grey"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:layout_marginLeft="@dimen/_5sdp"/>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/restBt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    app:contentPadding="@dimen/_5sdp"
+                    app:cardElevation="5dp">
+                    <ImageView
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_25sdp"
+                        android:src="@drawable/ic_baseline_weekend_24"
+                        android:layout_marginRight="@dimen/_10sdp"/>
+
+                    <TextView
+                        android:layout_width="@dimen/_100sdp"
+                        android:layout_height="@dimen/_14sdp"
+                        android:text="Rest Set"
+                        android:layout_marginLeft="@dimen/_40sdp"
+                        android:gravity="center_vertical"
+                        android:textStyle="bold"
+                        android:paddingStart="@dimen/_5sdp"
+                        android:textSize="@dimen/_10sdp"/>
+
+                    <TextView
+                        android:id="@+id/restTv"
+                        android:layout_width="@dimen/_100sdp"
+                        android:layout_height="@dimen/_14sdp"
+                        android:text="15 s"
+                        android:layout_marginLeft="@dimen/_40sdp"
+                        android:gravity="center_vertical"
+                        android:textStyle="bold"
+                        android:paddingStart="@dimen/_5sdp"
+                        android:textSize="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_14sdp"
+                        android:textColor="@color/grey"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/countDnBt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    app:contentPadding="@dimen/_5sdp"
+                    app:cardElevation="5dp">
+                    <ImageView
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_25sdp"
+                        android:src="@drawable/ic_baseline_av_timer_24"
+                        android:layout_marginRight="@dimen/_10sdp"/>
+
+                    <TextView
+                        android:layout_width="@dimen/_100sdp"
+                        android:layout_height="@dimen/_14sdp"
+                        android:text="Countdown Timer"
+                        android:layout_marginLeft="@dimen/_40sdp"
+                        android:gravity="center_vertical"
+                        android:textStyle="bold"
+                        android:paddingStart="@dimen/_5sdp"
+                        android:textSize="@dimen/_10sdp"/>
+
+                    <TextView
+                        android:id="@+id/countDnTv"
+                        android:layout_width="@dimen/_100sdp"
+                        android:layout_height="@dimen/_14sdp"
+                        android:text="5 s"
+                        android:layout_marginLeft="@dimen/_40sdp"
+                        android:gravity="center_vertical"
+                        android:textStyle="bold"
+                        android:paddingStart="@dimen/_5sdp"
+                        android:textSize="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_14sdp"
+                        android:textColor="@color/grey"/>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SUPPORT US"
+                    android:textStyle="bold"
+                    android:textColor="@color/grey"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:layout_marginLeft="@dimen/_5sdp"/>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/rateBt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    app:contentPadding="@dimen/_5sdp"
+                    app:cardElevation="5dp">
+                    <ImageView
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_25sdp"
+                        android:src="@drawable/ic_baseline_star_24"
+                        android:layout_marginRight="@dimen/_10sdp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_25sdp"
+                        android:text="Rate Us"
+                        android:layout_marginLeft="@dimen/_40sdp"
+                        android:gravity="center_vertical"
+                        android:textStyle="bold"
+                        android:paddingStart="@dimen/_5sdp"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/feedbackBt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    app:contentPadding="@dimen/_5sdp"
+                    app:cardElevation="5dp">
+                    <ImageView
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_25sdp"
+                        android:src="@drawable/ic_baseline_email_24"
+                        android:layout_marginRight="@dimen/_10sdp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_25sdp"
+                        android:text="Feedback"
+                        android:layout_marginLeft="@dimen/_40sdp"
+                        android:gravity="center_vertical"
+                        android:textStyle="bold"
+                        android:paddingStart="@dimen/_5sdp"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/resetProgressBt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    app:contentPadding="@dimen/_5sdp"
+                    app:cardElevation="5dp">
+                    <ImageView
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_25sdp"
+                        android:src="@drawable/ic_baseline_autorenew_24"
+                        android:layout_marginRight="@dimen/_10sdp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_25sdp"
+                        android:text="Reset Progress"
+                        android:layout_marginLeft="@dimen/_40sdp"
+                        android:gravity="center_vertical"
+                        android:textStyle="bold"
+                        android:paddingStart="@dimen/_5sdp"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/policyBt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    app:contentPadding="@dimen/_5sdp"
+                    app:cardElevation="5dp">
+                    <ImageView
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_25sdp"
+                        android:src="@drawable/ic_baseline_security_24"
+                        android:layout_marginRight="@dimen/_10sdp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_25sdp"
+                        android:text="Privacy Policy"
+                        android:layout_marginLeft="@dimen/_40sdp"
+                        android:gravity="center_vertical"
+                        android:textStyle="bold"
+                        android:paddingStart="@dimen/_5sdp"/>
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Version 1.1"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textColor="@color/grey"
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/logoutBt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LOGOUT"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/_20sdp"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
